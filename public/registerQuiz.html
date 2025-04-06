@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de Questão</title>
+  <link rel="stylesheet" href="css/styleQuiz.css" />
+</head>
+<body>
+
+  <h2>Cadastro de Questão</h2>
+
+  <form id="formQuestao">
+    <label for="pergunta">Pergunta:</label>
+    <input type="text" id="pergunta" required />
+
+    <label>Opções:</label>
+    <div class="option-group">
+      <input type="text" placeholder="Opção A" required />
+      <input type="text" placeholder="Opção B" required />
+      <input type="text" placeholder="Opção C" required />
+      <input type="text" placeholder="Opção D" required />
+    </div>
+
+    <label for="resposta">Resposta Correta:</label>
+    <input type="text" id="resposta" placeholder="Digite exatamente como está na opção" required />
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <script src="/scripts/scriptQuiz.js"></script>
+
+</body>
+</html>

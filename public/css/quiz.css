@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    margin-bottom: 10px;
+  }
+  .opcao {
+    margin: 10px 0;
+    display: flex;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  #feedback {
+    margin-top: 20px;
+    font-weight: bold;
+  }
