@@ -3,7 +3,7 @@ import { User } from '../models/User.js';
 
 // Rota para exibir o formulário de registro de usuários
 export const view = (req, res) => {
-    res.sendFile('users.html', { root: 'public' });
+    res.sendFile('../public/users.html', { root: 'public' });
   };
 
 // criar usuário

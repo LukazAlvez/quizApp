@@ -9,7 +9,7 @@ export const registerQuiz = (req, res) => {
 
 // Rota para exibir perguntas
 export const quiz = (req, res) => {
-    res.sendFile('quiz.html', { root: 'public' });
+    res.sendFile('../public/quiz.html', { root: 'public' });
 };
 
 // buscar perguntas
